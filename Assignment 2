@@ -1,0 +1,8 @@
+km=int(input('enter value for km'))
+cm=km*100000
+print(c)
+
+Output:
+enter value for km
+200
+20000000
