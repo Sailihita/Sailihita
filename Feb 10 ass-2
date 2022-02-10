@@ -1,0 +1,10 @@
+n=int(input ("enter a number:"))
+If n>0:
+  Print ("postive number")
+else:
+  Print ("negative number")
+
+Output:
+
+enter a number12
+postive number
