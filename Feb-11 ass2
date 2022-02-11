@@ -1,0 +1,43 @@
+sno=int(input('enter sno'))
+sname=input('enter name')
+s1=int(input ('s1 marks'))
+s2=int(input ('s2 marks'))
+s3=int(input('s3 marks'))
+s4=int(input('s4 marks'))
+s5=int(input ('s5 marks'))
+s6=int(input('s6 marks'))
+total=s1+s2+s3+s4+s5+s6
+avg=total/6
+if avg>=91:
+    print('O_grade')
+elif avg>=81:
+    print('A_grade')
+elif avg>=71:
+    print('B_grade')
+elif avg>=60:
+    print('C_grade')
+elif avg>=50:
+    print('D_grade')
+elif avg>=40:
+    print('pass')
+else:
+    print('fail')
+
+Output:-
+enter sno
+16
+enter name
+Likhita
+s1 marks
+57
+s2 marks
+56
+s3 marks
+68
+s4 marks
+64
+s5 marks
+53
+s6 marks
+64
+O_grade
