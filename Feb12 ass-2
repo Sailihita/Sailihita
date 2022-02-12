@@ -1,0 +1,19 @@
+
+a = int(input('Enter a number: '))
+b = int(input('Enter b number: '))
+ 
+if a==b:
+    print ('a is equal to  b')
+elif a!=b:
+    print ('a is not equal b')
+elif a>b:
+    print ('a is greater than b')
+elif a<b:
+    print ('a is smaller than b')
+
+output:
+enter a  number: 
+8
+Enter b number: 
+4
+a is not equal to b
