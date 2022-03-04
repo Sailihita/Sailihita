@@ -1,0 +1,4 @@
+tupleA=('a','b','c','d')
+tupleB=('1','2','3','4')
+tupleC=tupleA+tupleB
+print(tupleC)
