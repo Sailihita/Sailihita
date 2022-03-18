@@ -1,0 +1,18 @@
+s=input()
+l=list(s)
+x=[]
+for i in l:
+    if i=='a' or i=='A':
+        continue
+    if i=='e' or i=='E':
+        continue
+    if i=='i' or i=='I':
+        continue
+    if i=='o' or i=='O':
+        continue
+    if i=='u' or i=='U':
+        continue
+    else:
+        x.append(i)
+for i in x:
+    print(i,end='')
