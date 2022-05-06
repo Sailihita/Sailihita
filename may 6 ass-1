@@ -1,0 +1,5 @@
+std={2:['likhita','female','mpcs',80],4:['devi','female','mpcs',88],6:['ramteja','male','mpc',70]}
+x=int(input('enter the std no:'))
+print('name of the student:',std[x][0])
+print(https://www.onlinegdb.com/online_python_compiler#editor_1'student result:',std[x][3])
+print('student gender:',std[x][2])
