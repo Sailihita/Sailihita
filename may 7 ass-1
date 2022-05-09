@@ -1,0 +1,6 @@
+l=[2,5,4,7]
+for n in l:
+    if(n%2==0):
+        print('yes',end='')
+    else:
+        print('no',end='')
